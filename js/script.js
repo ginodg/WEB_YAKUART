@@ -41,6 +41,7 @@ $('#contact-form').submit(function(e) {
 })
 
 /**********    FUNCION PARA QUE AL ABRIR EL MENU EN VENTANA SMALL al hacer click fuera se esconda   *********/
+
 $(function () {
 
 	$(".navbar-toggle").blur(function (event) { //Se seleecion mediante la clase
