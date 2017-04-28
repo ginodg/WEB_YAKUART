@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Yaku Art</title>
+	 
+	<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	<header>
+	<!-- Creando el encabezado con lista menu! -->
+		<nav id="encabezado-nav" class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<!-- CODIGO PARA EL LOGO y Texto de Frase de la Marca-->
+				<div class="navbar-header">
+					<a href="index.html" class="">
+						<div id="yaku-logo" alt="Logo image"></div>
+					</a>
+					<div class="navbar-brand">
+							<h1>Paisaje, Diseño y Arte Acuático</h1>
+					</div>
+				</div>
+
+				<!-- CODIGO PARA EL BOTON MENU CUANDO SE HACE PEQUEÑA LA PANTALLA -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="true" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- ****************************************************** -->
+				
+				<!-- CODIGO PARA EL MENU DE OPCIONES -->
+				<div id="navbarMenu" class="collapse navbar-collapse">
+					<ul id="lista-menu" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html"><span class="glyphicon glyphicon-home hidde-xs"></span> HOME</a>
+						</li>
+						<li class="active">
+							<a href="servicios.html">Servicios &amp; Productos</a>
+						</li>
+						<li>
+							<a href="proyectos.html">Proyectos</a>
+						</li>
+						<li>
+							<a href="acercade.html">Acerca de Nosotros</a>
+						</li>
+						<li>
+							<a href="contacto.html">Contacto</a>
+						</li>
+					</ul>	
+				</div>
+				
+			</div>
+
+	</header>
+	
+	<!--    ******************       BLOQUE IMAGENES      ***************-->
+    
+    <h1 id="tit-serv">
+        Servicios 
+        <small>&amp; Productos</small>
+    </h1>
+
+	<div id="interiores" class="row featurette">
+        <div class="col-md-7">
+        	<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="/imagenes/servicios.jpg" data-holder-rendered="true">
+        </div>
+	    
+	    <div class="col-md-5">
+	       	<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+        	<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+	    </div>
+      	
+    </div>
+
+    <div id="muebles" class="row featurette">
+       	<div class="col-md-7 col-md-push-5">
+       		<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="/imagenes/mantenimiento.jpg" data-holder-rendered="true">	
+       	</div>
+      	<div class="col-md-5 col-md-pull-7">
+       		<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+       		<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+       	</div>
+    </div>
+      	
+    <div id="mantenimiento" class="row featurette">
+       	<div class="col-md-7">
+       		<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="/imagenes/mueble.jpg" data-holder-rendered="true">	
+       	</div>
+       	<div class="col-md-5">
+	       	<h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+	       	<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+       	</div>
+    </div>
+
+    <div id="producto" class="row featurette">
+       	<div class="col-md-7 col-md-push-5">
+       		<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="/imagenes/producto.jpg" data-holder-rendered="true">	
+       	</div>
+       	<div class="col-md-5 col-md-pull-7">
+       		<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+        	<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+    </div>
+
+    <!--************* FIN BLOQUE IMAGENES  *****************-->
+
+    <!-- FOOTER -->
+  	<footer id="footer-pag-serv" class="panel-footer">
+  		<div class="container">
+  			<div class="row">
+  				
+  				<section id="logo" class="col-sm-4">
+  					<img id="yaku-logo-footer" src="/imagenes/yaku_logo_grande.png" class="img-responsive">
+  				</section>
+  				
+  				<hr class="featurette-divider visible-xs">
+  				
+  				<section id="servicios" class="col-sm-4">
+  					<strong>
+  						Servicios:
+  					</strong>
+  					<p>- Paisajismo Acuático</p>
+  					<p>- Diseño de Interiores</p>
+  					<p>- Montaje de Acuarios</p>
+  					<p>- Mantenimiento de Acuarios</p>
+  				</section>
+
+  				<hr class="featurette-divider visible-xs">
+
+  				<section id="contacto" class="col-sm-4">
+  					<address>
+						<strong>Contáctenos:</strong><br>
+						<p>
+							Calle 28 - San Isidro<br>
+							Lima - PERU<br>
+							<abbr title="Phone">P:</abbr> (051) 981007226<br>
+							<a href="mailto:#">gino.diaz@yakuart.com</a>
+						</p>
+					</address>
+  				</section>
+
+  			</div>
+  			
+  		</div>
+  	</footer>
+     <!--******************   END FOOTER  ********************-->
+
+
+	<!-- jQuery (Bootstrap JS plugins para uso de plantillas y funciones) -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- PERMITE EL FUNCIONAMIENTO DEL BOTON MENU "navbar-collapse"-->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<!--
+	<script type="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="js/script.js"></script></acronym>
+	-->
+</body>	
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Yaku Art</title>
+	 
+	<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	
+</head>
+<body>
+	<header>
+	<!-- Creando el encabezado con lista menu! -->
+		<nav id="encabezado-nav" class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<!-- CODIGO PARA EL LOGO y Texto de Frase de la Marca-->
+				<div class="navbar-header">
+					<a href="index.html" class="">
+						<div id="yaku-logo" alt="Logo image"></div>
+					</a>
+					<div class="navbar-brand">
+							<h1>Paisaje, Diseño y Arte Acuático</h1>
+					</div>
+				</div>
+
+				<!-- CODIGO PARA EL BOTON MENU CUANDO SE HACE PEQUEÑA LA PANTALLA -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="true" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- ****************************************************** -->
+				
+				<!-- CODIGO PARA EL MENU DE OPCIONES -->
+				<div id="navbarMenu" class="collapse navbar-collapse">
+					<ul id="lista-menu" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html"><span class="glyphicon glyphicon-home hidde-xs"></span> HOME</a>
+						</li>
+						<li>
+							<a href="servicios.html">Servicios &amp; Productos</a>
+						</li>
+						<li>
+							<a href="proyectos.html">Proyectos</a>
+						</li>
+						<li>
+							<a href="acercade.html">Acerca de Nosotros</a>
+						</li>
+						<li class="active">
+							<a href="contacto.html">Contacto</a>
+						</li>
+					</ul>	
+				</div>
+				
+			</div>
+
+	</header>
+	
+	<!--    ******************       PAG CUERPO CONTACTO    ***************-->
+    
+    <div id="cont-img" class="cover-container">
+
+    	<div class="box">
+	    	<div class="row">
+
+	    		<h2>
+            		Contáctenos
+        		</h2>
+
+				<div class="col-md-8">
+			    	
+			    	<iframe class="embed-responsive-item embed-" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.2764606841025!2d-77.01553011187262!3d-12.104898288175875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8748dc990d7%3A0xf63ac9ee9daaa62d!2sCalle+28+136%2C+Distrito+de+Lima+15036!5e0!3m2!1ses!2spe!4v1489464993672" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			    	
+				</div>
+
+				<div class="col-md-4">
+			    	<form id="contact-form">
+
+			    		<div class="form-group">
+			    			<label class="sr-only" for="NameText">Nombre</label>
+			    			<input type="text" class="form-control" id="NameText" placeholder="Nombre">
+			  			</div>
+			  			
+			  			<div class="form-group">
+			    			<label class="sr-only" for="InputEmail">Email address</label>
+			    			<input type="email" class="form-control" id="InputEmail" placeholder="Email">
+			  			</div>
+			  			
+			  			<div class="form-group">
+			    			<label class="sr-only" for="SubjectText">Titulo</label>
+			    			<input type="text" class="form-control" id="SubjectText" placeholder="Título">
+			  			</div>
+			  			
+			  			<textarea class="form-control" rows="5" id="TextMessage" placeholder="Mensaje"></textarea>
+
+			  			<button type="submit" class="btn btn-default">Enviar</button>
+			  			
+					</form>
+				</div>
+
+			</div>
+		</div>
+    </div>
+	
+	
+    <!--     *************            FIN CUERPO PAG CONTACTO           *****************-->
+
+    <!-- FOOTER -->
+  	<footer id="footer-pag-serv" class="panel-footer">
+  		<div class="container">
+  			<div class="row">
+  				
+  				<section id="logo" class="col-sm-4">
+  					<img id="yaku-logo-footer" src="/imagenes/yaku_logo_grande.png" class="img-responsive">
+  				</section>
+  				
+  				<hr class="featurette-divider visible-xs">
+  				
+  				<section id="servicios" class="col-sm-4">
+  					<strong>
+  						Servicios:
+  					</strong>
+  					<p>- Paisajismo Acuático</p>
+  					<p>- Diseño de Interiores</p>
+  					<p>- Montaje de Acuarios</p>
+  					<p>- Mantenimiento de Acuarios</p>
+  				</section>
+
+  				<hr class="featurette-divider visible-xs">
+
+  				<section id="contacto" class="col-sm-4">
+  					<address>
+						<strong>Contáctenos:</strong><br>
+						<p>
+							Calle 28 - San Isidro<br>
+							Lima - PERU<br>
+							<abbr title="Phone">P:</abbr> (051) 981007226<br>
+							<a href="mailto:#">gino.diaz@yakuart.com</a>
+						</p>
+					</address>
+  				</section>
+
+  			</div>
+  			
+  		</div>
+  	</footer>
+    <!--******************   END FOOTER  ********************-->
+
+
+	<!-- jQuery (Bootstrap JS plugins para uso de plantillas y funciones) -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- PERMITE EL FUNCIONAMIENTO DEL BOTON MENU "navbar-collapse"-->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<!--  script para el diseño de la ventana de alerta de la pagina de contacto -->
+	<script src="js/sweetalert.min.js"></script>
+	<!--
+	<script type="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="js/script.js"></script></acronym>
+	-->
+</body>	
+</html>
