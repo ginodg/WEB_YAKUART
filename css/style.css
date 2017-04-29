@@ -283,7 +283,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px){
 	/*****************************  HEADER    ***************************/
 	#yaku-logo {
-		background: url('../imagenes/yaku_logo_medium.png') no-repeat;
+		background: url('https://ginodg.github.io/WEB_YAKUART/imagenes/yaku_logo_medium.png') no-repeat;
 		width: 180px;
 		height: 40px;
 		margin-left: 2px;
