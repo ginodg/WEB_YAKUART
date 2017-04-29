@@ -17,7 +17,7 @@ body {
 }
 
 #yaku-logo {
-	background: url('../imagenes/yaku_logo.png') no-repeat;
+	background: url('https://ginodg.github.io/WEB_YAKUART/imagenes/yaku_logo.png') no-repeat;
 	width: 200px;
 	height: 50px;
 	margin-left: 20px;
@@ -219,7 +219,7 @@ body {
 /********************       PAG CONTACTO     *********************/
 
 #cont-img { 
-	background-image: url("/imagenes/Home/acuario3.png");
+	background-image: url("https://ginodg.github.io/WEB_YAKUART/imagenes/Home/acuario3.png");
   	background-repeat: no-repeat;
   	background-position: center;
   	background-attachment: fixed;
