@@ -1,4 +1,3 @@
-
 html {
 	margin: 0;
 	padding: 0;
@@ -41,9 +40,13 @@ body {
 .navbar-header button.navbar-toggle {
 	clear: both;
 }
-/*********************************************************/
+/********************* PAG. INDEX   ************************/
 
-/**********************   CAROUSEL **********************/
+#bloq_imag hr {
+	border-color: #888;
+}
+
+/****----------------   CAROUSEL ----------------------****/
 .carousel-indicators .active {
 	background-color: #27FF55;
 }
@@ -52,9 +55,7 @@ body {
 }
 /********************************************************/
 
-#bloq_imag hr {
-	border-color: #888;
-}
+
 
 /************************    FOOTER   *******************/
 .panel-footer {
@@ -84,6 +85,10 @@ body {
 
 #contacto > address > p {
 	margin-top: 15px;
+}
+.panel-footer span {
+	color: #777;
+	margin-left: 40px;
 }
 
 /*
@@ -132,6 +137,13 @@ body {
 #producto > div p {
 	margin-right: 50px;
 	margin-left: 30px;
+}
+
+#interiores > div > p, /*  Es igual que poner: #interiores div p, */
+#muebles > div > p,
+#mantenimiento > div > p,
+#producto > div > p {
+	font-size: 20px;
 }
 
 /***********************************************************/
@@ -227,10 +239,9 @@ body {
   	min-height: 600px;
 }
 
-#cont-img div div h2 {
+#cont-img div div h1 {
 	margin-left: 50px;
 	margin-top: 30px;
-	color: #999;
 }
 
 #cont-img div div iframe {
@@ -258,29 +269,96 @@ body {
 
 /*********** Large devices only *****************/
 @media (min-width: 1200px) {
-	/***********************  CONTENIDO MARKETING   *******************/
+	/***********************  Textos junto a Graficos en InDEX y SERVICIOS   *******************/
 	.featurette-heading {
-		margin-top: 130px;
+		margin-top: 70px;
+	}
+	/**************     INDEX    ***************/
+	#bloq_imag div div p { /*  modificando tamaño texto de parrafos junto a imagenes en INDEX */
+		font-size: 20px;
+	}
+	/**************   SERVICIOS   ****************/
+	#tit-serv {
+		font-size: 45px;
+	}
+	#tit-serv {
+		margin: 60px;
+	}
+	#interiores > div > p, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > p,
+	#mantenimiento > div > p,
+	#producto > div > p {
+		font-size: 1.4vw;
+	}
+	#interiores > div > img, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > img,
+	#mantenimiento > div > img,
+	#producto > div > img {
+		margin-top: 75px;
 	}
 }
 /*********** Medium devices only *****************/
 @media (min-width: 992px) and (max-width: 1199px){
-	/*********   PAG SERVICIOS *************/
+	
+	/*************************  INDEX Y SERVICIOS  ******************/
 	#tit-serv {
 		margin: 50px;
 	}
-
-
-	/*************************  CONTENIDO MARKETING   ******************/
-
-	.featurette-heading {
-		margin-top: 80px;
+	.featurette-heading { /*****   modificando el espacio superiore de los textos junto a las imagenes en INDEX y SERVICIOS ala ez  */
+		margin-top: 30px;
+	}
+	#bloq_imag div div p { /*  modificando tamaño texto de parrafos junto a imagenes en INDEX */
+		font-size: 19px;
+	}
+	#interiores > div > p, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > p,
+	#mantenimiento > div > p,
+	#producto > div > p {
+		font-size: 1.5vw;
+	}
+	#interiores > div > img, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > img,
+	#mantenimiento > div > img,
+	#producto > div > img {
+		margin-top: 35px;
+	}
+	#interiores > div > h2, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > h2,
+	#mantenimiento > div > h2,
+	#producto > div > h2 {
+		font-size: 20px;
 	}
 			
 }
 
 /*********** Small devices only *****************/
 @media (min-width: 768px) and (max-width: 991px){
+
+	/*************************  CONTENIDO MARKETING   ******************/
+	
+	#bloq_imag div div p { /*  modificando tamaño texto de parrafos junto a imagenes en INDEX */
+		font-size: 18px;
+	}
+
+	/*****************        SERVICIOS         ******************/
+	#tit-serv {
+		margin: 50px;
+	}
+	#interiores > div > p, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > p,
+	#mantenimiento > div > p,
+	#producto > div > p {
+		font-size: 18px;
+	}
+
+	#interiores > div > h2, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > h2,
+	#mantenimiento > div > h2,
+	#producto > div > h2 {
+		font-size: 25px;
+	}
+	/********************************************************************/
+
 	/*****************************  HEADER    ***************************/
 	#yaku-logo {
 		background: url('https://ginodg.github.io/WEB_YAKUART/imagenes/yaku_logo_medium.png') no-repeat;
@@ -306,7 +384,7 @@ body {
 		display: inline-block;
 	}
 
-	/*   CAROUSEL        */
+	/****************   CAROUSEL   ****************************/
 	.carousel-caption > h1 {
 		font-size: 3vw;
 		margin-bottom: 1px;
@@ -337,6 +415,23 @@ body {
 
 /*********** Extra Small devices only *****************/
 @media (max-width: 767px){
+
+	/*****************        SERVICIOS         ******************/
+
+	#interiores > div > p, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > p,
+	#mantenimiento > div > p,
+	#producto > div > p {
+		font-size: 16px;
+	}
+
+	#interiores > div > h2, /*  Es igual que poner: #interiores div p, */
+	#muebles > div > h2,
+	#mantenimiento > div > h2,
+	#producto > div > h2 {
+		font-size: 25px;
+	}
+
 	/**************************     HEADER    *************************/
 	
 	.navbar-brand h1 { /* Mensaje del Servicio */
@@ -348,7 +443,11 @@ body {
 	.navbar-header { /* Permite que el boton de menu no se vaya hacia abajo */
 		display: inline-block;
 	}
-
+	/*************************  CONTENIDO MARKETING   ******************/
+	
+	#bloq_imag div div p { /*  modificando tamaño texto de parrafos junto a imagenes en INDEX */
+		font-size: 17px;
+	}
 	/****** PAG. SERVICIOS   **************/
 
 	#tit-serv {
