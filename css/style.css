@@ -269,7 +269,7 @@ body {
 
 /*********** Large devices only *****************/
 @media (min-width: 1200px) {
-	/***********************  Textos junto a Graficos en InDEX y SERVICIOS   *******************/
+	/***********************  Subtitulos junto a Graficos en InDEX y SERVICIOS   *******************/
 	.featurette-heading {
 		margin-top: 70px;
 	}
@@ -288,7 +288,7 @@ body {
 	#muebles > div > p,
 	#mantenimiento > div > p,
 	#producto > div > p {
-		font-size: 1.4vw;
+		font-size: 1.6vw;
 	}
 	#interiores > div > img, /*  Es igual que poner: #interiores div p, */
 	#muebles > div > img,
@@ -314,7 +314,7 @@ body {
 	#muebles > div > p,
 	#mantenimiento > div > p,
 	#producto > div > p {
-		font-size: 1.5vw;
+		font-size: 1.7vw;
 	}
 	#interiores > div > img, /*  Es igual que poner: #interiores div p, */
 	#muebles > div > img,
@@ -326,7 +326,7 @@ body {
 	#muebles > div > h2,
 	#mantenimiento > div > h2,
 	#producto > div > h2 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 			
 }
