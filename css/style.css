@@ -146,6 +146,11 @@ body {
 	font-size: 20px;
 }
 
+#interiores > div > h2 > span, /* Cambiando el color del texto span en los parrafos seleccionados */
+#mantenimiento > div > h2 > span {
+	color: #222
+}
+
 /***********************************************************/
 
 /***********     PAGINA PROYECTOS         *******************/
