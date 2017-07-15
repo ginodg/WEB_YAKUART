@@ -226,6 +226,11 @@ body {
 
 #img_acercade > div > div > h2{
 	color: #888;
+	margin-bottom: 20px;
+}
+
+#img_acercade > div > div > p{
+	font-size: 18px;
 }
 
 #img_acercade > hr {
